@@ -60,3 +60,8 @@ Notes:
 - Upsize end times in the data are UTC; upsizes usually end at midnight AEST.
 - If either site redesigns, the parsers may need updating; each script
   reports pages it failed to parse.
+
+
+## License
+Copyright (c) 2026 Tiger-QU.
+Licensed under the [GNU Affero General Public License v3.0](LICENSE).
