@@ -1,7 +1,7 @@
 {
- "scrapedAt": "2026-07-10T23:54:41.351651+00:00",
+ "scrapedAt": "2026-07-11T05:48:34.562532+00:00",
  "storeCount": 1395,
- "upsizedCount": 216,
+ "upsizedCount": 217,
  "errors": [],
  "stores": [
   {
@@ -2231,17 +2231,13 @@
    "slug": "baby-bunting",
    "url": "https://www.shopback.com.au/baby-bunting",
    "name": "Baby Bunting",
-   "cashback": "Up to 4.2% Cashback",
+   "cashback": "9% Cashback",
    "upsized": true,
-   "upsizeEndAt": "2026-07-13T13:59:59.000Z",
+   "upsizeEndAt": "2026-07-11T09:59:59.999Z",
    "tiers": [
     {
-     "label": "New Customer",
-     "rate": "4.2%"
-    },
-    {
-     "label": "Existing Customer",
-     "rate": "2.1%"
+     "label": "Standard Cashback",
+     "rate": "9%"
     }
    ],
    "trackingTime": "2 days",
@@ -5626,12 +5622,16 @@
    "slug": "coles",
    "url": "https://www.shopback.com.au/coles",
    "name": "Coles",
-   "cashback": "0.15% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "Up to 5% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-11T09:59:59.000Z",
    "tiers": [
     {
-     "label": "Standard Cashback",
+     "label": "Spend $200+",
+     "rate": "5%"
+    },
+    {
+     "label": "Spend <$200",
      "rate": "0.15%"
     }
    ],
