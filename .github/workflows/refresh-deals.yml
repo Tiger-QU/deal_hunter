@@ -31,7 +31,7 @@ jobs:
         run: python3 scrape_shopback.py --no-canvas --workers 12
 
       - name: Scrape TopCashback
-        run: python3 scrape_topcashback.py --no-canvas --workers 6
+        run: python3 scrape_topcashback.py --no-canvas --workers 6 --enrich-workers 2 --enrich-delay 0.8
 
       - name: Build phone dashboard
         run: python3 build_html.py

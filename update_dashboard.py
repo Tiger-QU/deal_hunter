@@ -13,6 +13,8 @@ import json
 import re
 from pathlib import Path
 
+from tier_utils import display_tiers, format_tier_note
+
 OUT_DIR = Path(__file__).resolve().parent / "data"
 CANVAS_PATH = Path(
     "/Users/Tiger/.cursor/projects/Users-Tiger-Documents-PJ-Shopback/canvases/"
@@ -98,14 +100,14 @@ def build_combined():
         key = norm_key(s["name"], s["slug"])
         b = entry(key, s["name"])
         b["category"] = s.get("category") or b["category"]
+        tiers = display_tiers(s.get("tiers"))
         b["offers"].append({
             "provider": "ShopBack",
             "cashback": s["cashback"],
             "upsized": s["upsized"],
             "upsizeEndAt": s["upsizeEndAt"],
-            "note": " · ".join(
-                f"{t['label']} {t['rate']}" for t in s["tiers"][:3]
-            ) or None,
+            "tiers": tiers,
+            "note": format_tier_note(tiers),
             "url": s["url"],
         })
 
@@ -114,12 +116,15 @@ def build_combined():
         b = entry(key, m["name"])
         if not b["category"]:
             b["category"] = tcb_category(m.get("categories"))
+        tiers = display_tiers(m.get("tiers"))
+        cat_fallback = "; ".join(m.get("categories", [])[:3]) or None
         b["offers"].append({
             "provider": "TopCashback",
             "cashback": m["cashback"],
             "upsized": m["upsized"],
             "upsizeEndAt": None,
-            "note": "; ".join(m.get("categories", [])[:3]) or None,
+            "tiers": tiers,
+            "note": format_tier_note(tiers, fallback=cat_fallback),
             "url": m["url"],
         })
 

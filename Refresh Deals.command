@@ -20,6 +20,7 @@ echo
 
 echo "Rebuilding dashboard..."
 python3 update_dashboard.py
+python3 build_html.py
 echo
 
 if [[ $sb_status -eq 0 && $tcb_status -eq 0 ]]; then
