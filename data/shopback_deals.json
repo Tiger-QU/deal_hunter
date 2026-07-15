@@ -1,7 +1,7 @@
 {
- "scrapedAt": "2026-07-14T21:08:08.132570+00:00",
- "storeCount": 1398,
- "upsizedCount": 168,
+ "scrapedAt": "2026-07-15T21:08:47.798265+00:00",
+ "storeCount": 1397,
+ "upsizedCount": 174,
  "errors": [],
  "stores": [
   {
@@ -276,13 +276,13 @@
    "slug": "adidas",
    "url": "https://www.shopback.com.au/adidas",
    "name": "adidas",
-   "cashback": "18% Cashback",
+   "cashback": "12% Cashback",
    "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.999Z",
+   "upsizeEndAt": "2026-07-19T13:59:59.000Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "18%"
+     "rate": "12%"
     },
     {
      "label": "Code Usage",
@@ -460,17 +460,21 @@
    "slug": "agoda",
    "url": "https://www.shopback.com.au/agoda",
    "name": "Agoda",
-   "cashback": "Up to 13% Cashback",
-   "upsized": true,
-   "upsizeEndAt": "2026-07-15T16:59:59.000Z",
+   "cashback": "Up to 6.5% Cashback",
+   "upsized": false,
+   "upsizeEndAt": null,
    "tiers": [
     {
-     "label": "Flight + Hotel (Hotel Portion)",
-     "rate": "13%"
+     "label": "Hotel",
+     "rate": "6.5%"
     },
     {
-     "label": "Hotel",
-     "rate": "13%"
+     "label": "Flight + Hotel (Hotel Portion)",
+     "rate": "6.5%"
+    },
+    {
+     "label": "Airport Transfer",
+     "rate": "3.5%"
     },
     {
      "label": "Attractions, Tours, and Others",
@@ -478,10 +482,6 @@
     },
     {
      "label": "eSIM",
-     "rate": "3.5%"
-    },
-    {
-     "label": "Airport Transfer",
      "rate": "3.5%"
     },
     {
@@ -862,15 +862,10 @@
    "slug": "amaysim-mobile",
    "url": "https://www.shopback.com.au/amaysim-mobile",
    "name": "amaysim Mobile",
-   "cashback": "$90 Cashback",
+   "cashback": "Temporarily unavailable",
    "upsized": false,
    "upsizeEndAt": null,
-   "tiers": [
-    {
-     "label": "$$320 Long Expiry Plan (discounted to $199)",
-     "rate": "$$90"
-    }
-   ],
+   "tiers": [],
    "trackingTime": "2 days",
    "claimTime": "180 days",
    "categoryId": 20,
@@ -1467,17 +1462,13 @@
    "slug": "apple",
    "url": "https://www.shopback.com.au/apple",
    "name": "Apple Store Online",
-   "cashback": "1% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "6.5% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-15T23:59:59.999Z",
    "tiers": [
     {
-     "label": "Education Store",
-     "rate": "1%"
-    },
-    {
      "label": "Standard Cashback",
-     "rate": "1%"
+     "rate": "6.5%"
     }
    ],
    "trackingTime": "7 days",
@@ -2556,13 +2547,13 @@
    "slug": "beauty-amora",
    "url": "https://www.shopback.com.au/beauty-amora",
    "name": "Beauty Amora",
-   "cashback": "10.5% Cashback",
-   "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.000Z",
+   "cashback": "5% Cashback",
+   "upsized": false,
+   "upsizeEndAt": null,
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "10.5%"
+     "rate": "5%"
     }
    ],
    "trackingTime": "2 days",
@@ -3397,7 +3388,7 @@
    "name": "Bluebella",
    "cashback": "8.4% Cashback",
    "upsized": true,
-   "upsizeEndAt": "2026-07-19T13:59:59.000Z",
+   "upsizeEndAt": "2026-07-19T13:59:59.999Z",
    "tiers": [
     {
      "label": "Standard Cashback",
@@ -3654,17 +3645,17 @@
    "slug": "booking-com",
    "url": "https://www.shopback.com.au/booking-com",
    "name": "Booking.com",
-   "cashback": "Up to 5.5% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "Up to 10% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-16T13:59:59.000Z",
    "tiers": [
     {
      "label": "Accommodation/Hotels",
-     "rate": "5.5%"
+     "rate": "10%"
     },
     {
      "label": "Car Rentals",
-     "rate": "5%"
+     "rate": "8%"
     }
    ],
    "trackingTime": "2 days",
@@ -4170,13 +4161,17 @@
    "slug": "bws",
    "url": "https://www.shopback.com.au/bws",
    "name": "BWS",
-   "cashback": "20% Cashback",
-   "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.000Z",
+   "cashback": "Up to 3.5% Cashback",
+   "upsized": false,
+   "upsizeEndAt": null,
    "tiers": [
     {
-     "label": "Standard Cashback",
-     "rate": "20%"
+     "label": "Order Purchase Amount Greater Than $120",
+     "rate": "3.5%"
+    },
+    {
+     "label": "Order Purchase Amount Less Than $120",
+     "rate": "0.5%"
     }
    ],
    "trackingTime": "7 days",
@@ -8539,7 +8534,7 @@
    "name": "EveryPlate",
    "cashback": "Up to 70% Cashback",
    "upsized": true,
-   "upsizeEndAt": "2026-07-18T13:58:59.000Z",
+   "upsizeEndAt": "2026-07-19T13:58:59.000Z",
    "tiers": [
     {
      "label": "New EveryPlate Customer",
@@ -8871,13 +8866,13 @@
    "slug": "fantasticfurniture",
    "url": "https://www.shopback.com.au/fantasticfurniture",
    "name": "Fantastic Furniture",
-   "cashback": "2% Cashback",
+   "cashback": "1% Cashback",
    "upsized": false,
    "upsizeEndAt": null,
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "2%"
+     "rate": "1%"
     }
    ],
    "trackingTime": "2 days",
@@ -9422,13 +9417,13 @@
    "slug": "foreo",
    "url": "https://www.shopback.com.au/foreo",
    "name": "Foreo",
-   "cashback": "13% Cashback",
+   "cashback": "10.5% Cashback",
    "upsized": true,
-   "upsizeEndAt": "2026-07-15T09:59:59.000Z",
+   "upsizeEndAt": "2026-07-19T13:59:59.999Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "13%"
+     "rate": "10.5%"
     }
    ],
    "trackingTime": "2 days",
@@ -10110,13 +10105,13 @@
    "slug": "giorgio-armani-beauty",
    "url": "https://www.shopback.com.au/giorgio-armani-beauty",
    "name": "Giorgio Armani Beauty",
-   "cashback": "14% Cashback",
-   "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.000Z",
+   "cashback": "5% Cashback",
+   "upsized": false,
+   "upsizeEndAt": null,
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "14%"
+     "rate": "5%"
     }
    ],
    "trackingTime": "2 days",
@@ -11970,13 +11965,13 @@
    "slug": "insureandgo",
    "url": "https://www.shopback.com.au/insureandgo",
    "name": "InsureandGo Travel Insurance",
-   "cashback": "4.8% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "14% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-19T13:59:59.999Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "4.8%"
+     "rate": "14%"
     }
    ],
    "trackingTime": "2 days",
@@ -12762,13 +12757,13 @@
    "slug": "kerastase",
    "url": "https://www.shopback.com.au/kerastase",
    "name": "Kerastase",
-   "cashback": "5% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "10% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-19T13:59:59.000Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "5%"
+     "rate": "10%"
     }
    ],
    "trackingTime": "2 days",
@@ -12819,13 +12814,13 @@
    "slug": "kiehls",
    "url": "https://www.shopback.com.au/kiehls",
    "name": "Kiehl&#x27;s",
-   "cashback": "18% Cashback",
-   "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.000Z",
+   "cashback": "5% Cashback",
+   "upsized": false,
+   "upsizeEndAt": null,
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "18%"
+     "rate": "5%"
     }
    ],
    "trackingTime": "2 days",
@@ -13058,32 +13053,24 @@
    "url": "https://www.shopback.com.au/klook",
    "name": "Klook",
    "cashback": "Up to 20% Cashback",
-   "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.999Z",
+   "upsized": false,
+   "upsizeEndAt": null,
    "tiers": [
     {
      "label": "Participating Klook eSIM (see T&C)",
      "rate": "20%"
     },
     {
-     "label": "Global Train Tickets (Japan, Korea, China)",
-     "rate": "8%"
-    },
-    {
-     "label": "Global Train Tickets (Europe)",
-     "rate": "8%"
-    },
-    {
-     "label": "Transport, WiFi & SIM Cards in Asia & Rest of World",
-     "rate": "8%"
+     "label": "Have Fun In Kansai Premium Pass (includes Universal Studios Japan) - Only via pass's banner link below",
+     "rate": "6%"
     },
     {
      "label": "Hotel & Staycations in Asia & Rest of World",
      "rate": "6%"
     },
     {
-     "label": "Have Fun In Kansai Premium Pass (includes Universal Studios Japan) - Only via pass's banner link below",
-     "rate": "6%"
+     "label": "Transport, WiFi & SIM Cards in Europe & US",
+     "rate": "5.5%"
     },
     {
      "label": "Car Rentals in Europe & US",
@@ -13091,14 +13078,6 @@
     },
     {
      "label": "Tours, Experiences & Cruises in Europe & US",
-     "rate": "5.5%"
-    },
-    {
-     "label": "Attractions & Shows in Europe & US",
-     "rate": "5.5%"
-    },
-    {
-     "label": "Klook Attraction Passes in Europe & US",
      "rate": "5.5%"
     },
     {
@@ -13110,19 +13089,19 @@
      "rate": "5.5%"
     },
     {
-     "label": "Transport, WiFi & SIM Cards in Europe & US",
+     "label": "Attractions & Shows in Europe & US",
+     "rate": "5.5%"
+    },
+    {
+     "label": "Global Train Tickets (Europe)",
+     "rate": "5.5%"
+    },
+    {
+     "label": "Klook Attraction Passes in Europe & US",
      "rate": "5.5%"
     },
     {
      "label": "Attractions & Shows in Asia & Rest of World",
-     "rate": "1.5%"
-    },
-    {
-     "label": "Car Rentals in Asia & Rest of World",
-     "rate": "1.5%"
-    },
-    {
-     "label": "Klook Travel Insurance in Asia & Rest of World",
      "rate": "1.5%"
     },
     {
@@ -13131,6 +13110,22 @@
     },
     {
      "label": "Klook Attraction Passes in Asia & Rest of World",
+     "rate": "1.5%"
+    },
+    {
+     "label": "Car Rentals in Asia & Rest of World",
+     "rate": "1.5%"
+    },
+    {
+     "label": "Transport, WiFi & SIM Cards in Asia & Rest of World",
+     "rate": "1.5%"
+    },
+    {
+     "label": "Klook Travel Insurance in Asia & Rest of World",
+     "rate": "1.5%"
+    },
+    {
+     "label": "Global Train Tickets (Japan, Korea, China)",
      "rate": "1.5%"
     }
    ],
@@ -13794,17 +13789,17 @@
    "slug": "lenovo",
    "url": "https://www.shopback.com.au/lenovo",
    "name": "Lenovo",
-   "cashback": "2.75% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "13.2% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-17T13:59:59.000Z",
    "tiers": [
     {
      "label": "Lenovo Pro",
-     "rate": "2.75%"
+     "rate": "13.2%"
     },
     {
      "label": "Lenovo Public",
-     "rate": "2.75%"
+     "rate": "13.2%"
     }
    ],
    "trackingTime": "2 days",
@@ -14140,7 +14135,7 @@
    "name": "Lounge Lovers",
    "cashback": "3.5% Cashback",
    "upsized": true,
-   "upsizeEndAt": "2026-07-16T13:59:59.000Z",
+   "upsizeEndAt": null,
    "tiers": [
     {
      "label": "Standard Cashback",
@@ -15015,13 +15010,13 @@
    "slug": "mathers",
    "url": "https://www.shopback.com.au/mathers",
    "name": "Mathers",
-   "cashback": "Up to 4% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "Up to 7% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-19T13:59:59.999Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "4%"
+     "rate": "7%"
     },
     {
      "label": "Coupon Code",
@@ -15171,13 +15166,13 @@
    "slug": "merit-beauty",
    "url": "https://www.shopback.com.au/merit-beauty",
    "name": "Merit Beauty",
-   "cashback": "8.4% Cashback",
-   "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.000Z",
+   "cashback": "2.5% Cashback",
+   "upsized": false,
+   "upsizeEndAt": null,
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "8.4%"
+     "rate": "2.5%"
     }
    ],
    "trackingTime": "2 days",
@@ -15237,13 +15232,17 @@
    "slug": "meshki",
    "url": "https://www.shopback.com.au/meshki",
    "name": "Meshki",
-   "cashback": "4% Cashback",
+   "cashback": "Up to 4% Cashback",
    "upsized": false,
    "upsizeEndAt": null,
    "tiers": [
     {
      "label": "Standard Cashback",
      "rate": "4%"
+    },
+    {
+     "label": "Coupon Usage",
+     "rate": "1%"
     }
    ],
    "trackingTime": "2 days",
@@ -15281,13 +15280,13 @@
    "slug": "midas",
    "url": "https://www.shopback.com.au/midas",
    "name": "MIDAS",
-   "cashback": "Up to 4% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "Up to 5% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-19T13:59:59.000Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "4%"
+     "rate": "5%"
     },
     {
      "label": "Coupon Code",
@@ -16626,17 +16625,17 @@
    "slug": "new-balance",
    "url": "https://www.shopback.com.au/new-balance",
    "name": "New Balance",
-   "cashback": "Up to 3.5% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "Up to 25% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-16T13:58:59.999Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "3.5%"
+     "rate": "25%"
     },
     {
      "label": "Clearance",
-     "rate": "1.4%"
+     "rate": "1.85%"
     }
    ],
    "trackingTime": "2 days",
@@ -18513,25 +18512,13 @@
    "slug": "petbarn",
    "url": "https://www.shopback.com.au/petbarn",
    "name": "Petbarn",
-   "cashback": "Up to 4% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "Up to 17% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-16T13:59:59.999Z",
    "tiers": [
     {
-     "label": "New Petbarn Customers (NonFood)",
-     "rate": "4%"
-    },
-    {
-     "label": "Existing Petbarn Customers (NonFood)",
-     "rate": "1%"
-    },
-    {
-     "label": "Providore, ProBalance, Leaps & Bounds, & The Nosh Project",
-     "rate": "1%"
-    },
-    {
-     "label": "All Other Food Brands",
-     "rate": "0.5%"
+     "label": "Standard Cashback",
+     "rate": "17%"
     },
     {
      "label": "Gift Cards",
@@ -18757,7 +18744,7 @@
    "name": "Pillow Talk",
    "cashback": "Up to 7% Cashback",
    "upsized": true,
-   "upsizeEndAt": null,
+   "upsizeEndAt": "2026-07-22T13:59:59.000Z",
    "tiers": [
     {
      "label": "New Customers",
@@ -20445,12 +20432,16 @@
    "slug": "samsung-au",
    "url": "https://www.shopback.com.au/samsung-au",
    "name": "Samsung",
-   "cashback": "Up to 5% Cashback",
+   "cashback": "Up to 10% Cashback",
    "upsized": true,
    "upsizeEndAt": "2026-07-21T13:59:59.000Z",
    "tiers": [
     {
-     "label": "TVs & Soundbars",
+     "label": "Galaxy eVoucher+ $30 for $90 value*",
+     "rate": "10%"
+    },
+    {
+     "label": "Home Appliances - Fridges, Washers/Dryers, Dishwashers, Stick Vacs, Ovens, Aircon",
      "rate": "5%"
     },
     {
@@ -20458,27 +20449,23 @@
      "rate": "5%"
     },
     {
-     "label": "Home Appliances - Fridges, Washers/Dryers, Dishwashers, Stick Vacs, Ovens, Aircon",
+     "label": "TVs & Soundbars",
      "rate": "5%"
-    },
-    {
-     "label": "Galaxy eVoucher+ $30 value for $90*",
-     "rate": "5%"
-    },
-    {
-     "label": "Tablet/Watch/Buds/Ring",
-     "rate": "4%"
     },
     {
      "label": "Mobiles",
      "rate": "4%"
     },
     {
-     "label": "Accessories",
-     "rate": "3%"
+     "label": "Tablet/Watch/Buds/Ring",
+     "rate": "4%"
     },
     {
      "label": "Other",
+     "rate": "3%"
+    },
+    {
+     "label": "Accessories",
      "rate": "3%"
     },
     {
@@ -22166,10 +22153,15 @@
    "slug": "styletread",
    "url": "https://www.shopback.com.au/styletread",
    "name": "Styletread",
-   "cashback": "2.4% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
-   "tiers": [],
+   "cashback": "10% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-19T13:59:59.999Z",
+   "tiers": [
+    {
+     "label": "Standard Cashback",
+     "rate": "10%"
+    }
+   ],
    "trackingTime": "2 days",
    "claimTime": "65 days",
    "categoryId": 5,
@@ -22866,17 +22858,17 @@
    "slug": "temu",
    "url": "https://www.shopback.com.au/temu",
    "name": "Temu",
-   "cashback": "Up to 60% Cashback",
-   "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.000Z",
+   "cashback": "Up to 12.5% Cashback",
+   "upsized": false,
+   "upsizeEndAt": null,
    "tiers": [
     {
      "label": "New to Temu App (never downloaded, registered or ordered)",
-     "rate": "60%"
+     "rate": "12.5%"
     },
     {
      "label": "Others",
-     "rate": "17.14%"
+     "rate": "2.5%"
     }
    ],
    "trackingTime": "7 days",
@@ -23428,10 +23420,19 @@
    "slug": "the-north-face",
    "url": "https://www.shopback.com.au/the-north-face",
    "name": "The North Face",
-   "cashback": "2.6% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
-   "tiers": [],
+   "cashback": "Up to 7% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-20T13:59:59.000Z",
+   "tiers": [
+    {
+     "label": "Full Price",
+     "rate": "7%"
+    },
+    {
+     "label": "Sale Items",
+     "rate": "4.2%"
+    }
+   ],
    "trackingTime": "2 days",
    "claimTime": "90 days",
    "categoryId": 5,
@@ -23636,19 +23637,6 @@
    "category": "Home & Garden"
   },
   {
-   "slug": "the-natural-transformer",
-   "url": "https://www.shopback.com.au/the-natural-transformer",
-   "name": "the-natural-transformer",
-   "cashback": null,
-   "upsized": false,
-   "upsizeEndAt": null,
-   "tiers": [],
-   "trackingTime": null,
-   "claimTime": null,
-   "categoryId": null,
-   "category": "Fashion"
-  },
-  {
    "slug": "theatre-tickets-direct",
    "url": "https://www.shopback.com.au/theatre-tickets-direct",
    "name": "Theatre Tickets Direct",
@@ -23753,13 +23741,13 @@
    "slug": "tick-travel-insurance",
    "url": "https://www.shopback.com.au/tick-travel-insurance",
    "name": "Tick Travel Insurance",
-   "cashback": "4.8% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "14% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-19T13:59:59.999Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "4.8%"
+     "rate": "14%"
     }
    ],
    "trackingTime": "2 days",
@@ -24233,21 +24221,33 @@
    "slug": "trip-com",
    "url": "https://www.shopback.com.au/trip-com",
    "name": "Trip.com",
-   "cashback": "Up to 6% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
+   "cashback": "Up to 18% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-16T13:59:59.000Z",
    "tiers": [
     {
      "label": "Airport Transfer",
-     "rate": "6%"
-    },
-    {
-     "label": "Car Rental",
-     "rate": "6%"
+     "rate": "18%"
     },
     {
      "label": "Hotels & Homes",
-     "rate": "5.5%"
+     "rate": "13%"
+    },
+    {
+     "label": "Car Rental",
+     "rate": "12%"
+    },
+    {
+     "label": "Transportation, Travel Services, Leisure, Food and Beverages, Outdoor Activities and Wi-Fi",
+     "rate": "5%"
+    },
+    {
+     "label": "Trip.com Flight International",
+     "rate": "4%"
+    },
+    {
+     "label": "Attractions (Attraction Tickets)",
+     "rate": "3.5%"
     },
     {
      "label": "Cruise",
@@ -24255,10 +24255,6 @@
     },
     {
      "label": "Others (Camping and Healthcare)",
-     "rate": "2.5%"
-    },
-    {
-     "label": "Transportation, Travel Services, Leisure, Food and Beverages, Outdoor Activities and Wi-Fi",
      "rate": "2.5%"
     },
     {
@@ -24270,16 +24266,8 @@
      "rate": "1.5%"
     },
     {
-     "label": "Attractions (Attraction Tickets)",
-     "rate": "1.5%"
-    },
-    {
      "label": "International Trains",
      "rate": "1.5%"
-    },
-    {
-     "label": "Trip.com Flight International",
-     "rate": "0.8%"
     },
     {
      "label": "Domestic China Flights",
@@ -25804,10 +25792,15 @@
    "slug": "williams-shoes",
    "url": "https://www.shopback.com.au/williams-shoes",
    "name": "Williams Shoes",
-   "cashback": "1.8% Cashback",
-   "upsized": false,
-   "upsizeEndAt": null,
-   "tiers": [],
+   "cashback": "7% Cashback",
+   "upsized": true,
+   "upsizeEndAt": "2026-07-19T13:59:59.999Z",
+   "tiers": [
+    {
+     "label": "Standard Cashback",
+     "rate": "7%"
+    }
+   ],
    "trackingTime": "2 days",
    "claimTime": "90 days",
    "categoryId": 5,
@@ -26478,13 +26471,13 @@
    "slug": "ysl-beauty",
    "url": "https://www.shopback.com.au/ysl-beauty",
    "name": "YSL Beauty",
-   "cashback": "18% Cashback",
+   "cashback": "14% Cashback",
    "upsized": true,
-   "upsizeEndAt": "2026-07-15T13:59:59.000Z",
+   "upsizeEndAt": "2026-07-18T13:59:59.000Z",
    "tiers": [
     {
      "label": "Standard Cashback",
-     "rate": "18%"
+     "rate": "14%"
     }
    ],
    "trackingTime": "2 days",
