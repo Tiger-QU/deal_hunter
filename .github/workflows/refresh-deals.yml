@@ -27,6 +27,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install fetch dependencies
+        run: pip install -r requirements.txt
+
       - name: Scrape ShopBack
         run: python3 scrape_shopback.py --no-canvas --workers 12
 

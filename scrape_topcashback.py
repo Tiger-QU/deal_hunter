@@ -29,15 +29,12 @@ import re
 import sys
 import threading
 import time
-import urllib.request
 from pathlib import Path
 
+from fetch_utils import BROWSER_HEADERS, fetch, warmup
+
 BASE = "https://www.topcashback.com.au"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-    "Accept-Language": "en-AU,en;q=0.9",
-}
+HEADERS = BROWSER_HEADERS
 OUT_DIR = Path(__file__).resolve().parent / "data"
 PAGE_SIZE = 25
 MIN_MERCHANT_HTML = 15000
@@ -50,19 +47,6 @@ def is_blocked(html):
         or "awsWaf" in html
         or re.search(r"<title>\s*</title>", html[:2500])
     )
-
-
-def fetch(url, timeout=30, retries=3, backoff=2.0):
-    last_err = None
-    for attempt in range(retries):
-        try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return resp.read().decode("utf-8", errors="replace")
-        except Exception as e:  # noqa: BLE001 - retry any network error
-            last_err = e
-            time.sleep(backoff * (attempt + 1))
-    raise RuntimeError(f"failed to fetch {url}: {last_err}")
 
 
 def parse_merchant_tiers(html):
@@ -92,7 +76,7 @@ def fetch_merchant_tiers(slug, delay=0.0):
     if delay:
         time.sleep(delay)
     url = f"{BASE}/{slug}/"
-    html = fetch(url, retries=4, backoff=3.0)
+    html = fetch(url, retries=4, backoff=3.0, referer=f"{BASE}/")
     if is_blocked(html):
         return []
     return parse_merchant_tiers(html)
@@ -160,7 +144,8 @@ def enrich_merchants(merchants, workers=2, delay=0.8, limit=None):
 
 
 def get_category_slugs():
-    xml = fetch(BASE + "/sitemap.xml")
+    warmup(BASE)
+    xml = fetch(BASE + "/sitemap.xml", referer=f"{BASE}/")
     locs = re.findall(r"<loc>(.*?)</loc>", xml)
     slugs = []
     for loc in locs:

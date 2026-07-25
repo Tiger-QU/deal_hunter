@@ -26,15 +26,12 @@ import json
 import re
 import sys
 import time
-import urllib.request
 from pathlib import Path
 
+from fetch_utils import BROWSER_HEADERS, fetch, warmup
+
 BASE = "https://www.shopback.com.au"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-    "Accept-Language": "en-AU,en;q=0.9",
-}
+HEADERS = BROWSER_HEADERS
 OUT_DIR = Path(__file__).resolve().parent / "data"
 
 # Pages in the sitemap that are not store pages.
@@ -105,21 +102,25 @@ def resolve_categories(results):
     return unknown
 
 
-def fetch(url, timeout=30, retries=3):
-    last_err = None
-    for attempt in range(retries):
-        try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return resp.read().decode("utf-8", errors="replace")
-        except Exception as e:  # noqa: BLE001 - retry any network error
-            last_err = e
-            time.sleep(1.5 * (attempt + 1))
-    raise RuntimeError(f"failed to fetch {url}: {last_err}")
+def load_cached_slugs():
+    """Last-known store slugs from a previous successful scrape."""
+    path = OUT_DIR / "shopback_deals.json"
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text())
+    return sorted({s["slug"] for s in data.get("stores", []) if s.get("slug")})
 
 
 def get_store_slugs():
-    xml = fetch(BASE + "/sitemap.xml")
+    warmup(BASE)
+    try:
+        xml = fetch(BASE + "/sitemap.xml", referer=BASE + "/")
+    except Exception as exc:
+        cached = load_cached_slugs()
+        if cached:
+            print(f"  sitemap unavailable ({exc}); using {len(cached)} cached slugs")
+            return cached
+        raise
     locs = re.findall(r"<loc>(.*?)</loc>", xml)
     slugs = []
     for loc in locs:
@@ -250,7 +251,7 @@ def scrape_all(slugs, workers=16):
     errors = []
 
     def work(slug):
-        html = fetch(f"{BASE}/{slug}")
+        html = fetch(f"{BASE}/{slug}", referer=BASE + "/")
         return parse_store(slug, html)
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
