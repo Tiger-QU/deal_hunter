@@ -1,8 +1,29 @@
 {
- "scrapedAt": "2026-07-29T21:10:39.987966+00:00",
- "merchantCount": 1448,
- "upsizedCount": 82,
- "errors": [],
+ "scrapedAt": "2026-07-30T21:24:33.245639+00:00",
+ "merchantCount": 1426,
+ "upsizedCount": 80,
+ "errors": [
+  {
+   "category": "contracts-and-payg",
+   "error": "failed to fetch https://www.topcashback.com.au/category/contracts-and-payg/: 404 Client Error: Not Found for url: https://www.topcashback.com.au/category/contracts-and-payg/"
+  },
+  {
+   "category": "credit-rating",
+   "error": "failed to fetch https://www.topcashback.com.au/category/credit-rating/: 404 Client Error: Not Found for url: https://www.topcashback.com.au/category/credit-rating/"
+  },
+  {
+   "category": "cyclingtest",
+   "error": "failed to fetch https://www.topcashback.com.au/category/cyclingtest/: 404 Client Error: Not Found for url: https://www.topcashback.com.au/category/cyclingtest/"
+  },
+  {
+   "category": "delivery-services",
+   "error": "failed to fetch https://www.topcashback.com.au/category/delivery-services/: 404 Client Error: Not Found for url: https://www.topcashback.com.au/category/delivery-services/"
+  },
+  {
+   "category": "landlord-insurance",
+   "error": "failed to fetch https://www.topcashback.com.au/category/landlord-insurance/: 404 Client Error: Not Found for url: https://www.topcashback.com.au/category/landlord-insurance/"
+  }
+ ],
  "merchants": [
   {
    "slug": "1001-optical",
@@ -94,9 +115,9 @@
    "cashback": "10% Cashback",
    "upsized": true,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -108,8 +129,8 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -187,7 +208,6 @@
     "Mobile Phones",
     "Home and Garden",
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -211,8 +231,7 @@
    "upsized": false,
    "categories": [
     "Experiences",
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": []
   },
@@ -248,8 +267,8 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
     "Fashion",
+    "Outdoorwear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -323,8 +342,7 @@
    "upsized": false,
    "categories": [
     "Flights",
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": []
   },
@@ -348,8 +366,7 @@
    "cashback": "Up to 15% Cashback",
    "upsized": false,
    "categories": [
-    "Sim Only and Mobile Plans",
-    "Utilities"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": []
   },
@@ -460,8 +477,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -496,8 +513,8 @@
    "cashback": "Up to 8% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -593,8 +610,8 @@
    "categories": [
     "Activewear",
     "Footwear",
-    "Outdoorwear",
     "Fashion",
+    "Outdoorwear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -617,8 +634,8 @@
    "cashback": "Up to 8% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": []
@@ -643,8 +660,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -681,10 +698,7 @@
    "cashback": "40% Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "Utilities",
-    "Vpn and Software",
-    "More Shopping"
+    "Services"
    ],
    "tiers": []
   },
@@ -721,8 +735,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -734,8 +748,7 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Fashion",
-    "Travel"
+    "Fashion"
    ],
    "tiers": []
   },
@@ -786,11 +799,10 @@
     "Electricals",
     "Jewellery",
     "Laptops and Computers",
+    "Fashion",
     "Mobile Phones",
     "Office Equipment",
     "Home and Garden",
-    "Fashion",
-    "Utilities",
     "More Shopping"
    ],
    "tiers": []
@@ -888,8 +900,8 @@
    "categories": [
     "Accessories",
     "Footwear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -947,8 +959,7 @@
    "cashback": "Up to 2% Cashback",
    "upsized": true,
    "categories": [
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": []
   },
@@ -959,8 +970,7 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -1018,8 +1028,8 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -1033,17 +1043,6 @@
     "Electricals",
     "Laptops and Computers",
     "Home and Garden"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "australia-post-travel-insurance",
-   "url": "https://www.topcashback.com.au/australia-post-travel-insurance/",
-   "name": "Australia Post Travel Insurance",
-   "cashback": "10% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
    ],
    "tiers": []
   },
@@ -1078,8 +1077,7 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Car Hire",
-    "Travel"
+    "Car Hire"
    ],
    "tiers": []
   },
@@ -1104,9 +1102,7 @@
    "cashback": "7% Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "Utilities",
-    "Vpn and Software"
+    "Services"
    ],
    "tiers": []
   },
@@ -1120,9 +1116,8 @@
     "Footwear",
     "Lingerie",
     "Health and Beauty",
-    "Home and Garden",
     "Fashion",
-    "More Shopping"
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -1145,8 +1140,7 @@
    "cashback": "4% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -1157,8 +1151,8 @@
    "cashback": "15% Cashback",
    "upsized": true,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": []
@@ -1182,7 +1176,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -1206,8 +1199,7 @@
    "cashback": "Up to 7% Cashback",
    "upsized": false,
    "categories": [
-    "Car Hire",
-    "Travel"
+    "Car Hire"
    ],
    "tiers": []
   },
@@ -1231,8 +1223,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -1279,8 +1271,7 @@
    "cashback": "4% Cashback",
    "upsized": false,
    "categories": [
-    "Parent Baby Toddler",
-    "More Shopping"
+    "Parent Baby Toddler"
    ],
    "tiers": []
   },
@@ -1303,8 +1294,7 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Fashion",
-    "Travel"
+    "Fashion"
    ],
    "tiers": []
   },
@@ -1349,8 +1339,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -1376,10 +1366,10 @@
     "Footwear",
     "Marketplace",
     "Health and Beauty",
+    "Fashion",
     "Home and Garden",
     "Menswear",
     "Toys and Games",
-    "Fashion",
     "More Shopping"
    ],
    "tiers": []
@@ -1508,8 +1498,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -1558,9 +1548,9 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -1575,8 +1565,7 @@
     "Electricals",
     "Laptops and Computers",
     "Mobile Phones",
-    "Home and Garden",
-    "Utilities"
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -1690,8 +1679,8 @@
     "Accessories",
     "Footwear",
     "Jewellery",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -1794,8 +1783,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -1819,8 +1808,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -1915,14 +1904,14 @@
    "upsized": false,
    "categories": [
     "Electricals",
-    "Furniture",
     "Footwear",
+    "Furniture",
     "Home Appliances",
     "Interior Decor",
     "Kidswear",
+    "Fashion",
     "Home and Garden",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": []
   },
@@ -1936,16 +1925,16 @@
     "Accessories",
     "Electricals",
     "Garden",
-    "Furniture",
     "Footwear",
+    "Furniture",
     "Home Appliances",
     "Interior Decor",
     "Kidswear",
     "Lingerie",
+    "Fashion",
     "Home and Garden",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -1975,19 +1964,6 @@
     "Home and Garden",
     "More Shopping",
     "Sports and Outdoors"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "binge",
-   "url": "https://www.topcashback.com.au/binge/",
-   "name": "BINGE",
-   "cashback": "Up to $55 Cashback",
-   "upsized": false,
-   "categories": [
-    "Home and Garden",
-    "Services",
-    "More Shopping"
    ],
    "tiers": []
   },
@@ -2060,8 +2036,7 @@
    "upsized": false,
    "categories": [
     "Health and Beauty",
-    "Nutrition and Supplements",
-    "More Shopping"
+    "Nutrition and Supplements"
    ],
    "tiers": []
   },
@@ -2099,8 +2074,8 @@
     "Footwear",
     "Jewellery",
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -2193,9 +2168,9 @@
    "upsized": false,
    "categories": [
     "Kidswear",
+    "Fashion",
     "Menswear",
-    "Parent Baby Toddler",
-    "Fashion"
+    "Parent Baby Toddler"
    ],
    "tiers": []
   },
@@ -2229,8 +2204,8 @@
    "cashback": "Up to 8% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": []
@@ -2304,8 +2279,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -2342,8 +2317,7 @@
    "upsized": true,
    "categories": [
     "Mobile Phones",
-    "Sim Only and Mobile Plans",
-    "Utilities"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": []
   },
@@ -2494,18 +2468,6 @@
    "upsized": false,
    "categories": [
     "Fashion"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "brytesoft",
-   "url": "https://www.topcashback.com.au/brytesoft/",
-   "name": "Brytesoft",
-   "cashback": "15% Cashback",
-   "upsized": false,
-   "categories": [
-    "Services",
-    "Vpn and Software"
    ],
    "tiers": []
   },
@@ -2695,8 +2657,8 @@
    "categories": [
     "Accessories",
     "Lingerie",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -2707,9 +2669,9 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
+    "Fashion",
     "New Zealand Brands",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": []
   },
@@ -2744,11 +2706,11 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Luxury",
     "Kidswear",
+    "Luxury",
+    "Fashion",
     "Home and Garden",
     "Menswear",
-    "Fashion",
     "More Shopping",
     "Sports and Outdoors"
    ],
@@ -2790,17 +2752,6 @@
     "Parent Baby Toddler",
     "More Shopping",
     "Sports and Outdoors"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "canstar",
-   "url": "https://www.topcashback.com.au/canstar/",
-   "name": "Canstar",
-   "cashback": "Up to $125 Cashback",
-   "upsized": false,
-   "categories": [
-    "Utilities"
    ],
    "tiers": []
   },
@@ -2900,8 +2851,8 @@
    "cashback": "$40 Cashback",
    "upsized": false,
    "categories": [
-    "Cars and Bikes",
-    "Car Hire"
+    "Car Hire",
+    "Cars and Bikes"
    ],
    "tiers": []
   },
@@ -2916,9 +2867,7 @@
     "Laptops and Computers",
     "Mobile Phones",
     "Home and Garden",
-    "Stationery",
-    "Utilities",
-    "More Shopping"
+    "Stationery"
    ],
    "tiers": []
   },
@@ -2942,9 +2891,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Mobile Phones",
     "Fashion",
-    "Utilities",
+    "Mobile Phones",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -2969,9 +2917,9 @@
    "upsized": false,
    "categories": [
     "Activewear",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -2985,9 +2933,9 @@
     "Accessories",
     "Footwear",
     "Kidswear",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -3010,9 +2958,7 @@
    "cashback": "30% Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "Utilities",
-    "Vpn and Software"
+    "Services"
    ],
    "tiers": []
   },
@@ -3126,8 +3072,8 @@
    "cashback": "Up to 6% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -3138,9 +3084,9 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Gifts",
-    "Body and Hair",
     "Health and Beauty",
     "More Shopping"
    ],
@@ -3188,9 +3134,9 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty",
     "Nutrition and Supplements"
    ],
@@ -3203,10 +3149,10 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty",
     "Nutrition and Supplements",
     "Pharmacy"
@@ -3447,8 +3393,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Parent Baby Toddler",
-    "Fashion"
+    "Fashion",
+    "Parent Baby Toddler"
    ],
    "tiers": []
   },
@@ -3485,8 +3431,8 @@
     "Accessories",
     "Footwear",
     "Gifts",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "More Shopping",
     "Sports and Outdoors"
    ],
@@ -3523,12 +3469,12 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Interior Decor",
     "Jewellery",
+    "Interior Decor",
+    "Fashion",
     "Home and Garden",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -3576,7 +3522,6 @@
    "categories": [
     "Energy",
     "Insurance",
-    "Utilities",
     "More Shopping"
    ],
    "tiers": []
@@ -3600,8 +3545,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -3613,8 +3558,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -3743,8 +3688,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Mobile Phones",
-    "Fashion"
+    "Fashion",
+    "Mobile Phones"
    ],
    "tiers": []
   },
@@ -3757,8 +3702,8 @@
    "categories": [
     "Footwear",
     "Jewellery",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -3769,10 +3714,10 @@
    "cashback": "4.5% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -3810,9 +3755,9 @@
    "categories": [
     "Accessories",
     "Footwear",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -3824,8 +3769,8 @@
    "upsized": true,
    "categories": [
     "Lingerie",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -3837,8 +3782,8 @@
    "upsized": false,
    "categories": [
     "Lingerie",
-    "Parent Baby Toddler",
     "Fashion",
+    "Parent Baby Toddler",
     "More Shopping"
    ],
    "tiers": []
@@ -3863,8 +3808,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -3935,10 +3880,10 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Electricals",
     "Furniture",
-    "Body and Hair",
     "Marketplace",
     "Health and Beauty",
     "Home and Garden",
@@ -3984,8 +3929,8 @@
    "categories": [
     "Accessories",
     "Health and Beauty",
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -4019,9 +3964,9 @@
    "cashback": "Up to 5% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty",
     "More Shopping"
    ],
@@ -4050,16 +3995,7 @@
     "Accessories",
     "Fashion"
    ],
-   "tiers": [
-    {
-     "label": "New Customers",
-     "rate": "6%"
-    },
-    {
-     "label": "Existing Customers",
-     "rate": "2%"
-    }
-   ]
+   "tiers": []
   },
   {
    "slug": "curtain-wonderland",
@@ -4083,7 +4019,6 @@
    "upsized": true,
    "categories": [
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -4118,8 +4053,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -4145,18 +4080,18 @@
    "categories": [
     "Accessories",
     "Electricals",
-    "Furniture",
     "Footwear",
+    "Furniture",
     "Home Appliances",
-    "Interior Decor",
     "Jewellery",
-    "Laptops and Computers",
+    "Interior Decor",
     "Kidswear",
+    "Laptops and Computers",
     "Lingerie",
+    "Fashion",
     "Home and Garden",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -4181,16 +4116,7 @@
     "Cosmetics",
     "Health and Beauty"
    ],
-   "tiers": [
-    {
-     "label": "New Customers",
-     "rate": "9%"
-    },
-    {
-     "label": "Existing Customers",
-     "rate": "4%"
-    }
-   ]
+   "tiers": []
   },
   {
    "slug": "dc-shoes",
@@ -4220,8 +4146,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Food",
     "Electricals",
+    "Food",
     "Food and Drinks",
     "Home Appliances",
     "Home and Garden"
@@ -4335,8 +4261,7 @@
    "upsized": false,
    "categories": [
     "Cosmetics",
-    "Health and Beauty",
-    "More Shopping"
+    "Health and Beauty"
    ],
    "tiers": []
   },
@@ -4391,8 +4316,8 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -4416,8 +4341,8 @@
    "categories": [
     "Gifts",
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -4514,17 +4439,6 @@
    "tiers": []
   },
   {
-   "slug": "discovery-hotels-and-resorts",
-   "url": "https://www.topcashback.com.au/discovery-hotels-and-resorts/",
-   "name": "Discovery Hotels & Resorts",
-   "cashback": "5% Cashback",
-   "upsized": false,
-   "categories": [
-    "Accommodation"
-   ],
-   "tiers": []
-  },
-  {
    "slug": "disney-store",
    "url": "https://www.topcashback.com.au/disney-store/",
    "name": "Disney Store",
@@ -4600,41 +4514,21 @@
    ]
   },
   {
-   "slug": "dodo-",
-   "url": "https://www.topcashback.com.au/dodo-/",
-   "name": "Dodo",
-   "cashback": "Up to $100 Cashback",
-   "upsized": false,
-   "categories": [
-    "Utilities"
-   ],
-   "tiers": [
-    {
-     "label": "nbn Services",
-     "rate": "$100"
-    },
-    {
-     "label": "Mobile Services",
-     "rate": "$50"
-    }
-   ]
-  },
-  {
    "slug": "dokodemo",
    "url": "https://www.topcashback.com.au/dokodemo/",
    "name": "DOKODEMO",
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Electricals",
     "Food and Drinks",
-    "Body and Hair",
     "Kidswear",
     "Marketplace",
     "Health and Beauty",
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -4711,8 +4605,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "New Zealand Brands",
-    "Fashion"
+    "Fashion",
+    "New Zealand Brands"
    ],
    "tiers": [
     {
@@ -4724,20 +4618,6 @@
      "rate": "1%"
     }
    ]
-  },
-  {
-   "slug": "dr-techlove",
-   "url": "https://www.topcashback.com.au/dr-techlove/",
-   "name": "Dr Techlove",
-   "cashback": "10% Cashback",
-   "upsized": false,
-   "categories": [
-    "Diy",
-    "Electricals",
-    "Home Appliances",
-    "Home and Garden"
-   ],
-   "tiers": []
   },
   {
    "slug": "dreame",
@@ -4886,23 +4766,12 @@
    "cashback": "3.5% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Electricals",
     "Home Appliances",
-    "Body and Hair",
     "Health and Beauty",
     "Home and Garden",
     "More Shopping"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "etel",
-   "url": "https://www.topcashback.com.au/etel/",
-   "name": "E.Tel Travel eSIM",
-   "cashback": "15% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
    ],
    "tiers": []
   },
@@ -5037,8 +4906,7 @@
    "cashback": "Up to $320 Cashback",
    "upsized": false,
    "categories": [
-    "Energy",
-    "Utilities"
+    "Energy"
    ],
    "tiers": [
     {
@@ -5072,9 +4940,9 @@
    "categories": [
     "Kidswear",
     "Health and Beauty",
-    "Pharmacy",
+    "Fashion",
     "Parent Baby Toddler",
-    "Fashion"
+    "Pharmacy"
    ],
    "tiers": []
   },
@@ -5175,18 +5043,6 @@
    "tiers": []
   },
   {
-   "slug": "edx",
-   "url": "https://www.topcashback.com.au/edx/",
-   "name": "edX",
-   "cashback": "8% Cashback",
-   "upsized": false,
-   "categories": [
-    "Utilities",
-    "More Shopping"
-   ],
-   "tiers": []
-  },
-  {
    "slug": "eharmony",
    "url": "https://www.topcashback.com.au/eharmony/",
    "name": "eHarmony",
@@ -5273,8 +5129,8 @@
    "cashback": "15% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -5287,8 +5143,7 @@
    "categories": [
     "Electricals",
     "Home and Garden",
-    "Toys and Games",
-    "More Shopping"
+    "Toys and Games"
    ],
    "tiers": []
   },
@@ -5453,9 +5308,9 @@
    "categories": [
     "Accessories",
     "Footwear",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": [
     {
@@ -5508,7 +5363,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Utilities",
     "More Shopping"
    ],
    "tiers": []
@@ -5623,9 +5477,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Mobile Phones",
     "Fashion",
-    "Utilities"
+    "Mobile Phones"
    ],
    "tiers": []
   },
@@ -5680,8 +5533,7 @@
    "cashback": "11% Cashback",
    "upsized": false,
    "categories": [
-    "Sim Only and Mobile Plans",
-    "Utilities"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": []
   },
@@ -5694,8 +5546,8 @@
    "categories": [
     "Diy",
     "Garden",
-    "Furniture",
     "Gifts",
+    "Furniture",
     "Interior Decor",
     "Home and Garden",
     "Stationery",
@@ -5722,8 +5574,8 @@
    "cashback": "Up to 7% Cashback",
    "upsized": false,
    "categories": [
-    "Cars and Bikes",
     "Car Hire",
+    "Cars and Bikes",
     "More Shopping",
     "Travel"
    ],
@@ -5868,8 +5720,8 @@
    "cashback": "Up to 5% Cashback",
    "upsized": false,
    "categories": [
-    "Toys and Games",
-    "Fashion"
+    "Fashion",
+    "Toys and Games"
    ],
    "tiers": [
     {
@@ -5905,19 +5757,7 @@
    "cashback": "1.5% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "exclusive-holiday-getaways",
-   "url": "https://www.topcashback.com.au/exclusive-holiday-getaways/",
-   "name": "Exclusive Holiday Getaways",
-   "cashback": "15% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -5925,8 +5765,8 @@
    "slug": "expedia",
    "url": "https://www.topcashback.com.au/expedia/",
    "name": "Expedia",
-   "cashback": "Up to 13.5% Cashback",
-   "upsized": true,
+   "cashback": "Up to 8.5% Cashback",
+   "upsized": false,
    "categories": [
     "Car Hire",
     "Accommodation",
@@ -5937,19 +5777,19 @@
    "tiers": [
     {
      "label": "Hotels",
-     "rate": "12.5%"
+     "rate": "8.5%"
     },
     {
      "label": "Car Hire",
-     "rate": "13.5%"
+     "rate": "6%"
     },
     {
      "label": "Packages",
-     "rate": "5.5%"
+     "rate": "3%"
     },
     {
      "label": "Activities",
-     "rate": "10%"
+     "rate": "6%"
     },
     {
      "label": "Vacation Rentals",
@@ -5968,8 +5808,7 @@
     "Accommodation",
     "Experiences",
     "Flights",
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": [
     {
@@ -6036,7 +5875,6 @@
    "upsized": true,
    "categories": [
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -6073,9 +5911,9 @@
    "cashback": "8% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Electricals",
-    "Body and Hair",
     "Health and Beauty",
     "Home and Garden"
    ],
@@ -6089,8 +5927,8 @@
    "upsized": false,
    "categories": [
     "Activewear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -6158,10 +5996,10 @@
    "cashback": "Up to 2.5% Cashback",
    "upsized": false,
    "categories": [
-    "Luxury",
     "Kidswear",
-    "Menswear",
+    "Luxury",
     "Fashion",
+    "Menswear",
     "More Shopping"
    ],
    "tiers": [
@@ -6243,17 +6081,6 @@
    "tiers": []
   },
   {
-   "slug": "ferry-hopper",
-   "url": "https://www.topcashback.com.au/ferry-hopper/",
-   "name": "Ferry Hopper",
-   "cashback": "3% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
-   ],
-   "tiers": []
-  },
-  {
    "slug": "fever",
    "url": "https://www.topcashback.com.au/fever/",
    "name": "Fever",
@@ -6292,13 +6119,22 @@
    "slug": "fig-and-bloom",
    "url": "https://www.topcashback.com.au/fig-and-bloom/",
    "name": "Fig & Bloom",
-   "cashback": "12.5% Cashback",
+   "cashback": "Up to 15% Cashback",
    "upsized": false,
    "categories": [
     "Gifts",
     "More Shopping"
    ],
-   "tiers": []
+   "tiers": [
+    {
+     "label": "New Customers",
+     "rate": "15%"
+    },
+    {
+     "label": "Existing Customers",
+     "rate": "10%"
+    }
+   ]
   },
   {
    "slug": "fila",
@@ -6311,8 +6147,8 @@
     "Accessories",
     "Footwear",
     "Kidswear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -6368,8 +6204,7 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Office Equipment",
-    "More Shopping"
+    "Office Equipment"
    ],
    "tiers": []
   },
@@ -6446,8 +6281,7 @@
     "Car Hire",
     "Experiences",
     "Flights",
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": [
     {
@@ -6495,8 +6329,8 @@
    "categories": [
     "Accessories",
     "Footwear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -6574,8 +6408,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": []
@@ -6644,8 +6478,7 @@
    "cashback": "$15 Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "Utilities"
+    "Services"
    ],
    "tiers": []
   },
@@ -6657,7 +6490,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Utilities",
     "More Shopping"
    ],
    "tiers": []
@@ -6690,8 +6522,8 @@
    "upsized": false,
    "categories": [
     "Lingerie",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -6784,8 +6616,8 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -6865,8 +6697,8 @@
    "cashback": "Up to 7.5% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": [
@@ -6899,19 +6731,19 @@
    "cashback": "12% Cashback",
    "upsized": false,
    "categories": [
-    "Diy",
     "Accessories",
+    "Diy",
     "Electricals",
     "Garden",
-    "Furniture",
     "Footwear",
+    "Furniture",
     "Home Appliances",
-    "Interior Decor",
     "Jewellery",
+    "Interior Decor",
     "Kidswear",
+    "Fashion",
     "Home and Garden",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": []
   },
@@ -6946,8 +6778,8 @@
    "categories": [
     "Accessories",
     "Footwear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": [
@@ -6990,9 +6822,9 @@
    "categories": [
     "Activewear",
     "Accessories",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -7004,8 +6836,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -7050,8 +6882,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -7161,8 +6993,8 @@
    "cashback": "4% Cashback",
    "upsized": false,
    "categories": [
-    "Electricals",
     "Body and Hair",
+    "Electricals",
     "Health and Beauty",
     "Home and Garden"
    ],
@@ -7189,10 +7021,10 @@
    "categories": [
     "Accessories",
     "Electricals",
-    "Furniture",
     "Gifts",
-    "Home and Garden",
+    "Furniture",
     "Fashion",
+    "Home and Garden",
     "More Shopping"
    ],
    "tiers": []
@@ -7229,10 +7061,10 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -7352,8 +7184,8 @@
     "Kidswear",
     "Marketplace",
     "Health and Beauty",
-    "Home and Garden",
     "Fashion",
+    "Home and Garden",
     "More Shopping",
     "Sports and Outdoors"
    ],
@@ -7412,8 +7244,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Utilities",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": [
@@ -7439,8 +7269,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -7734,20 +7564,9 @@
    "upsized": false,
    "categories": [
     "Accessories",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "hamilton-island",
-   "url": "https://www.topcashback.com.au/hamilton-island/",
-   "name": "Hamilton Island",
-   "cashback": "4% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -7850,8 +7669,8 @@
    "cashback": "9% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -7874,8 +7693,8 @@
    "cashback": "5% Cashback",
    "upsized": true,
    "categories": [
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -7953,8 +7772,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -7966,8 +7785,8 @@
    "upsized": false,
    "categories": [
     "Gifts",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -8051,8 +7870,8 @@
    "categories": [
     "Footwear",
     "Jewellery",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -8157,8 +7976,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -8342,8 +8161,8 @@
    "categories": [
     "Activewear",
     "Footwear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": [
@@ -8445,8 +8264,7 @@
    "cashback": "9% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -8480,8 +8298,8 @@
    "slug": "hotels",
    "url": "https://www.topcashback.com.au/hotels/",
    "name": "Hotels.com",
-   "cashback": "4% Cashback",
-   "upsized": false,
+   "cashback": "7.5% Cashback",
+   "upsized": true,
    "categories": [
     "Accommodation",
     "Travel"
@@ -8495,8 +8313,7 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -8604,8 +8421,8 @@
    "cashback": "8% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -8682,8 +8499,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -8695,8 +8512,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Mobile Phones",
-    "Fashion"
+    "Fashion",
+    "Mobile Phones"
    ],
    "tiers": []
   },
@@ -8730,13 +8547,13 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Fragrances",
-    "Food and Drinks",
     "Body and Hair",
+    "Food and Drinks",
+    "Fragrances",
     "Health and Beauty",
     "Nutrition and Supplements",
-    "Pets",
     "Parent Baby Toddler",
+    "Pets",
     "More Shopping"
    ],
    "tiers": []
@@ -8803,25 +8620,14 @@
    "tiers": []
   },
   {
-   "slug": "ingenia-holiday-parks",
-   "url": "https://www.topcashback.com.au/ingenia-holiday-parks/",
-   "name": "Ingenia Holiday Parks",
-   "cashback": "7% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
-   ],
-   "tiers": []
-  },
-  {
    "slug": "inglot-cosmetics",
    "url": "https://www.topcashback.com.au/inglot-cosmetics/",
    "name": "INGLOT Cosmetics",
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": []
@@ -8833,9 +8639,9 @@
    "cashback": "8% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Gifts",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -8860,8 +8666,7 @@
    "cashback": "Up to 10% Cashback",
    "upsized": false,
    "categories": [
-    "Stationery",
-    "More Shopping"
+    "Stationery"
    ],
    "tiers": [
     {
@@ -8888,8 +8693,7 @@
     "Home Appliances",
     "Interior Decor",
     "New Zealand Brands",
-    "Home and Garden",
-    "More Shopping"
+    "Home and Garden"
    ],
    "tiers": [
     {
@@ -8944,8 +8748,7 @@
    "upsized": false,
    "categories": [
     "Experiences",
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": []
   },
@@ -9037,10 +8840,10 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty",
     "Nutrition and Supplements"
    ],
@@ -9065,8 +8868,7 @@
    "cashback": "80% Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "Vpn and Software"
+    "Services"
    ],
    "tiers": []
   },
@@ -9080,8 +8882,8 @@
     "Accessories",
     "Footwear",
     "Jewellery",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -9104,38 +8906,6 @@
     {
      "label": "Online Purchase - Sale Items",
      "rate": "1%"
-    }
-   ]
-  },
-  {
-   "slug": "iselect",
-   "url": "https://www.topcashback.com.au/iselect/",
-   "name": "iSelect",
-   "cashback": "Up to $110 Cashback",
-   "upsized": false,
-   "categories": [
-    "Utilities"
-   ],
-   "tiers": [
-    {
-     "label": "Comprehensive Car Insurance",
-     "rate": "$110"
-    },
-    {
-     "label": "Home Building & Contents Combined Insurance",
-     "rate": "$100"
-    },
-    {
-     "label": "Home Building Only Insurance",
-     "rate": "$65"
-    },
-    {
-     "label": "Home Contents Only Insurance",
-     "rate": "$50"
-    },
-    {
-     "label": "Third Party Car Insurance",
-     "rate": "$40"
     }
    ]
   },
@@ -9180,8 +8950,7 @@
    "cashback": "40% Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "Vpn and Software"
+    "Services"
    ],
    "tiers": []
   },
@@ -9207,8 +8976,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -9219,8 +8988,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -9232,8 +9001,8 @@
    "upsized": false,
    "categories": [
     "Gifts",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "More Shopping"
    ],
    "tiers": []
@@ -9273,8 +9042,8 @@
     "Accessories",
     "Footwear",
     "Kidswear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -9298,9 +9067,7 @@
    "cashback": "15% Cashback",
    "upsized": true,
    "categories": [
-    "Sim Only and Mobile Plans",
-    "Utilities",
-    "Travel"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": []
   },
@@ -9323,8 +9090,8 @@
    "cashback": "10% Cashback",
    "upsized": true,
    "categories": [
-    "Gifts",
     "Body and Hair",
+    "Gifts",
     "Health and Beauty",
     "More Shopping"
    ],
@@ -9364,8 +9131,8 @@
    "categories": [
     "Accessories",
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -9385,20 +9152,9 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
+    "Fashion",
     "New Zealand Brands",
-    "Menswear",
-    "Fashion"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "johnson-fitness",
-   "url": "https://www.topcashback.com.au/johnson-fitness/",
-   "name": "Johnson Fitness",
-   "cashback": "4% Cashback",
-   "upsized": false,
-   "categories": [
-    "Sports and Outdoors"
+    "Menswear"
    ],
    "tiers": []
   },
@@ -9410,8 +9166,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -9482,11 +9238,10 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Cars and Bikes",
     "Car Hire",
+    "Cars and Bikes",
     "Experiences",
-    "More Shopping",
-    "Travel"
+    "More Shopping"
    ],
    "tiers": []
   },
@@ -9498,8 +9253,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -9588,8 +9343,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -9600,8 +9355,8 @@
    "cashback": "8% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -9624,8 +9379,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -9835,8 +9590,8 @@
    "cashback": "9% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -10104,8 +9859,8 @@
    "cashback": "Up to 10% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": [
@@ -10173,10 +9928,10 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -10252,8 +10007,8 @@
    "slug": "laithwaites",
    "url": "https://www.topcashback.com.au/laithwaites/",
    "name": "Laithwaites Wine",
-   "cashback": "Up to 12% Cashback",
-   "upsized": true,
+   "cashback": "Up to 10% Cashback",
+   "upsized": false,
    "categories": [
     "Alcohol",
     "Food and Drinks"
@@ -10261,11 +10016,11 @@
    "tiers": [
     {
      "label": "New Customers",
-     "rate": "12%"
+     "rate": "10%"
     },
     {
      "label": "Existing Customers",
-     "rate": "9%"
+     "rate": "8%"
     },
     {
      "label": "Select SKUs (see terms)",
@@ -10292,10 +10047,10 @@
    "cashback": "7.7% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -10388,10 +10143,10 @@
     "Gifts",
     "Marketplace",
     "Health and Beauty",
+    "Fashion",
     "Home and Garden",
     "Parent Baby Toddler",
-    "Toys and Games",
-    "Fashion"
+    "Toys and Games"
    ],
    "tiers": []
   },
@@ -10403,8 +10158,8 @@
    "upsized": false,
    "categories": [
     "Lingerie",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -10474,8 +10229,8 @@
    "cashback": "6% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -10520,8 +10275,7 @@
    "categories": [
     "Experiences",
     "Parent Baby Toddler",
-    "More Shopping",
-    "Travel"
+    "More Shopping"
    ],
    "tiers": []
   },
@@ -10598,8 +10352,8 @@
    "categories": [
     "Accessories",
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -10728,8 +10482,8 @@
    "upsized": false,
    "categories": [
     "Interior Decor",
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -10799,13 +10553,13 @@
    "cashback": "Up to 5% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Electricals",
     "Furniture",
-    "Body and Hair",
     "Health and Beauty",
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": [
     {
@@ -10828,9 +10582,9 @@
     "Books Magazines",
     "Footwear",
     "Interior Decor",
+    "Fashion",
     "Home and Garden",
     "Menswear",
-    "Fashion",
     "More Shopping"
    ],
    "tiers": []
@@ -10855,17 +10609,6 @@
      "rate": "2%"
     }
    ]
-  },
-  {
-   "slug": "looking4parking",
-   "url": "https://www.topcashback.com.au/looking4parking/",
-   "name": "Looking4Parking",
-   "cashback": "3% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
-   ],
-   "tiers": []
   },
   {
    "slug": "loop-earplugs",
@@ -10901,9 +10644,9 @@
    "upsized": false,
    "categories": [
     "Activewear",
+    "Fashion",
     "Menswear",
     "Outdoorwear",
-    "Fashion",
     "Sports and Outdoors"
    ],
    "tiers": [
@@ -11028,8 +10771,7 @@
    "categories": [
     "Accessories",
     "Jewellery",
-    "Fashion",
-    "Sports and Outdoors"
+    "Fashion"
    ],
    "tiers": []
   },
@@ -11040,8 +10782,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -11054,8 +10796,8 @@
    "categories": [
     "Activewear",
     "Kidswear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": [
@@ -11084,8 +10826,7 @@
    "cashback": "$50 Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "More Shopping"
+    "Services"
    ],
    "tiers": []
   },
@@ -11098,8 +10839,8 @@
    "categories": [
     "Cosmetics",
     "Health and Beauty",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -11240,8 +10981,7 @@
    "upsized": false,
    "categories": [
     "Mobile Phones",
-    "Sim Only and Mobile Plans",
-    "Utilities"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": [
     {
@@ -11269,8 +11009,7 @@
    "cashback": "6% Cashback",
    "upsized": false,
    "categories": [
-    "Pets",
-    "More Shopping"
+    "Pets"
    ],
    "tiers": []
   },
@@ -11281,8 +11020,7 @@
    "cashback": "2% Cashback",
    "upsized": true,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -11305,8 +11043,8 @@
    "cashback": "7% Cashback",
    "upsized": true,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -11314,13 +11052,22 @@
    "slug": "mac-cosmetics",
    "url": "https://www.topcashback.com.au/mac-cosmetics/",
    "name": "MAC Cosmetics",
-   "cashback": "15% Cashback",
-   "upsized": true,
+   "cashback": "Up to 5% Cashback",
+   "upsized": false,
    "categories": [
     "Cosmetics",
     "Health and Beauty"
    ],
-   "tiers": []
+   "tiers": [
+    {
+     "label": "New Customers",
+     "rate": "5%"
+    },
+    {
+     "label": "Existing Customers",
+     "rate": "3.5%"
+    }
+   ]
   },
   {
    "slug": "mac-cosmetics-nz",
@@ -11353,9 +11100,7 @@
    "cashback": "35% Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "Utilities",
-    "Vpn and Software"
+    "Services"
    ],
    "tiers": []
   },
@@ -11398,8 +11143,7 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
-    "Experiences",
-    "Travel"
+    "Experiences"
    ],
    "tiers": []
   },
@@ -11537,8 +11281,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -11561,31 +11305,11 @@
    "upsized": false,
    "categories": [
     "Accessories",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
-  },
-  {
-   "slug": "marhaba-services",
-   "url": "https://www.topcashback.com.au/marhaba-services/",
-   "name": "marhaba Services",
-   "cashback": "Up to 5.25% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
-   ],
-   "tiers": [
-    {
-     "label": "Check In Anywhere",
-     "rate": "5.25%"
-    },
-    {
-     "label": "Global Stations (excluding Geneva)",
-     "rate": "5%"
-    }
-   ]
   },
   {
    "slug": "marimekko",
@@ -11596,8 +11320,8 @@
    "categories": [
     "Accessories",
     "Interior Decor",
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -11634,9 +11358,9 @@
     "Accessories",
     "Footwear",
     "Luxury",
+    "Fashion",
     "Home and Garden",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": [
     {
@@ -11729,18 +11453,6 @@
    "upsized": false,
    "categories": [
     "Electricals",
-    "Home and Garden"
-   ],
-   "tiers": []
-  },
-  {
-   "slug": "mcm-house",
-   "url": "https://www.topcashback.com.au/mcm-house/",
-   "name": "MCM House",
-   "cashback": "4% Cashback",
-   "upsized": false,
-   "categories": [
-    "Furniture",
     "Home and Garden"
    ],
    "tiers": []
@@ -11923,8 +11635,8 @@
    "categories": [
     "Accessories",
     "Furniture",
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": [
     {
@@ -12012,8 +11724,7 @@
    "cashback": "Up to 4% Cashback",
    "upsized": false,
    "categories": [
-    "Flights",
-    "Travel"
+    "Flights"
    ],
    "tiers": [
     {
@@ -12076,8 +11787,7 @@
    "cashback": "Up to 3% Cashback",
    "upsized": false,
    "categories": [
-    "Mobile Phones",
-    "Utilities"
+    "Mobile Phones"
    ],
    "tiers": [
     {
@@ -12148,9 +11858,9 @@
    "categories": [
     "Kidswear",
     "Lingerie",
+    "Fashion",
     "Menswear",
     "Parent Baby Toddler",
-    "Fashion",
     "More Shopping"
    ],
    "tiers": []
@@ -12177,8 +11887,8 @@
     "Furniture",
     "Interior Decor",
     "Home and Garden",
-    "Pets",
-    "Parent Baby Toddler"
+    "Parent Baby Toddler",
+    "Pets"
    ],
    "tiers": []
   },
@@ -12246,8 +11956,7 @@
    "upsized": false,
    "categories": [
     "Mobile Phones",
-    "Sim Only and Mobile Plans",
-    "Utilities"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": []
   },
@@ -12284,9 +11993,9 @@
    "categories": [
     "Activewear",
     "Kidswear",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -12308,9 +12017,9 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -12322,9 +12031,9 @@
    "upsized": false,
    "categories": [
     "Footwear",
+    "Fashion",
     "Menswear",
     "Outdoorwear",
-    "Fashion",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -12396,9 +12105,9 @@
     "Activewear",
     "Accessories",
     "Health and Beauty",
+    "Fashion",
     "Nutrition and Supplements",
     "Menswear",
-    "Fashion",
     "More Shopping",
     "Sports and Outdoors"
    ],
@@ -12575,21 +12284,21 @@
    "upsized": false,
    "categories": [
     "Activewear",
+    "Body and Hair",
     "Cosmetics",
     "Fragrances",
-    "Furniture",
     "Footwear",
     "Gifts",
+    "Furniture",
     "Interior Decor",
-    "Body and Hair",
     "Kidswear",
     "Lingerie",
     "Health and Beauty",
+    "Fashion",
     "Home and Garden",
     "Menswear",
     "Parent Baby Toddler",
     "Toys and Games",
-    "Fashion",
     "More Shopping",
     "Sports and Outdoors"
    ],
@@ -12654,8 +12363,8 @@
     "Accessories",
     "Food and Drinks",
     "Health and Beauty",
-    "Nutrition and Supplements",
     "Fashion",
+    "Nutrition and Supplements",
     "More Shopping",
     "Sports and Outdoors"
    ],
@@ -12758,9 +12467,9 @@
    "categories": [
     "Footwear",
     "Kidswear",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": [
     {
@@ -12824,8 +12533,8 @@
     "Gifts",
     "Luxury",
     "Health and Beauty",
-    "Home and Garden",
     "Fashion",
+    "Home and Garden",
     "More Shopping",
     "Sports and Outdoors"
    ],
@@ -12928,8 +12637,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -12963,9 +12672,9 @@
    "categories": [
     "Accessories",
     "Footwear",
+    "Fashion",
     "Home and Garden",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": []
   },
@@ -13048,9 +12757,9 @@
    "categories": [
     "Kidswear",
     "Health and Beauty",
+    "Fashion",
     "Home and Garden",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": [
     {
@@ -13114,8 +12823,7 @@
    "cashback": "30% Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "Vpn and Software"
+    "Services"
    ],
    "tiers": []
   },
@@ -13127,8 +12835,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Utilities",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -13141,7 +12847,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": [
@@ -13164,9 +12869,9 @@
    "categories": [
     "Body and Hair",
     "Health and Beauty",
+    "Fashion",
     "Home and Garden",
     "Parent Baby Toddler",
-    "Fashion",
     "More Shopping"
    ],
    "tiers": []
@@ -13271,9 +12976,9 @@
    "categories": [
     "Activewear",
     "Accessories",
+    "Fashion",
     "Menswear",
     "Outdoorwear",
-    "Fashion",
     "Sports and Outdoors"
    ],
    "tiers": [
@@ -13294,8 +12999,7 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -13309,8 +13013,8 @@
     "Accessories",
     "Footwear",
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -13358,10 +13062,10 @@
    "cashback": "4% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -13376,8 +13080,8 @@
     "Footwear",
     "Jewellery",
     "Luxury",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -13462,10 +13166,10 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty",
     "Nutrition and Supplements"
    ],
@@ -13564,8 +13268,7 @@
    "cashback": "$50 Cashback",
    "upsized": false,
    "categories": [
-    "Services",
-    "More Shopping"
+    "Services"
    ],
    "tiers": []
   },
@@ -13666,9 +13369,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Mobile Phones",
     "Fashion",
-    "Utilities"
+    "Mobile Phones"
    ],
    "tiers": [
     {
@@ -13715,8 +13417,8 @@
    "categories": [
     "Accessories",
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -13727,9 +13429,9 @@
    "cashback": "Up to 6% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Fragrances",
     "Gifts",
-    "Body and Hair",
     "Health and Beauty",
     "More Shopping"
    ],
@@ -13778,7 +13480,6 @@
     "Laptops and Computers",
     "Mobile Phones",
     "Home and Garden",
-    "Utilities",
     "More Shopping"
    ],
    "tiers": []
@@ -13791,9 +13492,9 @@
    "upsized": false,
    "categories": [
     "Kidswear",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -13804,8 +13505,7 @@
    "cashback": "Up to 5% Cashback",
    "upsized": false,
    "categories": [
-    "Home and Garden",
-    "Travel"
+    "Home and Garden"
    ],
    "tiers": [
     {
@@ -13826,9 +13526,10 @@
    "upsized": false,
    "categories": [
     "Activewear",
+    "Fashion",
     "Menswear",
     "Outdoorwear",
-    "Fashion"
+    "Sports and Outdoors"
    ],
    "tiers": [
     {
@@ -13979,8 +13680,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Parent Baby Toddler",
-    "Fashion"
+    "Fashion",
+    "Parent Baby Toddler"
    ],
    "tiers": []
   },
@@ -14080,8 +13781,8 @@
    "upsized": false,
    "categories": [
     "Activewear",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -14263,8 +13964,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -14387,8 +14088,7 @@
     "Electricals",
     "Laptops and Computers",
     "Mobile Phones",
-    "Home and Garden",
-    "Utilities"
+    "Home and Garden"
    ],
    "tiers": []
   },
@@ -14399,8 +14099,7 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Gifts",
-    "More Shopping"
+    "Gifts"
    ],
    "tiers": []
   },
@@ -14457,8 +14156,7 @@
    "upsized": false,
    "categories": [
     "Health and Beauty",
-    "Services",
-    "More Shopping"
+    "Services"
    ],
    "tiers": []
   },
@@ -14533,8 +14231,8 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -14590,8 +14288,7 @@
    "upsized": false,
    "categories": [
     "Fragrances",
-    "Health and Beauty",
-    "More Shopping"
+    "Health and Beauty"
    ],
    "tiers": []
   },
@@ -14634,8 +14331,7 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": []
   },
@@ -14679,11 +14375,10 @@
    "slug": "private-internet-access",
    "url": "https://www.topcashback.com.au/private-internet-access/",
    "name": "Private Internet Access",
-   "cashback": "105% Cashback",
+   "cashback": "120% Cashback",
    "upsized": true,
    "categories": [
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -14708,8 +14403,7 @@
    "cashback": "0.5% Cashback",
    "upsized": false,
    "categories": [
-    "More Shopping",
-    "Travel"
+    "More Shopping"
    ],
    "tiers": []
   },
@@ -14721,8 +14415,7 @@
    "upsized": false,
    "categories": [
     "Services",
-    "More Shopping",
-    "Travel"
+    "More Shopping"
    ],
    "tiers": []
   },
@@ -14734,8 +14427,8 @@
    "upsized": false,
    "categories": [
     "Activewear",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -14782,8 +14475,8 @@
     "Accessories",
     "Footwear",
     "Kidswear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -14807,8 +14500,7 @@
    "cashback": "8% Cashback",
    "upsized": false,
    "categories": [
-    "Experiences",
-    "Travel"
+    "Experiences"
    ],
    "tiers": []
   },
@@ -14832,7 +14524,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -14902,8 +14593,7 @@
    "cashback": "1.5% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -14967,8 +14657,8 @@
    "cashback": "Up to 8% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": [
     {
@@ -14991,9 +14681,7 @@
     "Electricals",
     "Mobile Phones",
     "Home and Garden",
-    "Services",
-    "Utilities",
-    "Vpn and Software"
+    "Services"
    ],
    "tiers": []
   },
@@ -15072,8 +14760,8 @@
    "cashback": "Up to 8% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": [
     {
@@ -15150,10 +14838,10 @@
     "Accessories",
     "Footwear",
     "Kidswear",
+    "Fashion",
     "New Zealand Brands",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -15165,8 +14853,7 @@
    "upsized": false,
    "categories": [
     "Experiences",
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": []
   },
@@ -15215,8 +14902,8 @@
     "Footwear",
     "Gifts",
     "Kidswear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "More Shopping",
     "Sports and Outdoors"
    ],
@@ -15411,8 +15098,8 @@
    "upsized": false,
    "categories": [
     "Activewear",
-    "Outdoorwear",
     "Fashion",
+    "Outdoorwear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -15470,7 +15157,8 @@
    "upsized": true,
    "categories": [
     "Footwear",
-    "Fashion"
+    "Fashion",
+    "Sports and Outdoors"
    ],
    "tiers": []
   },
@@ -15544,8 +15232,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -15583,25 +15271,14 @@
    "tiers": []
   },
   {
-   "slug": "rosetta-stone",
-   "url": "https://www.topcashback.com.au/rosetta-stone/",
-   "name": "Rosetta Stone",
-   "cashback": "7% Cashback",
-   "upsized": false,
-   "categories": [
-    "Services"
-   ],
-   "tiers": []
-  },
-  {
    "slug": "roxy-australia",
    "url": "https://www.topcashback.com.au/roxy-australia/",
    "name": "Roxy Australia",
    "cashback": "Up to 8% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": [
     {
@@ -15659,8 +15336,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -15674,8 +15351,8 @@
     "Activewear",
     "Accessories",
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -15699,8 +15376,7 @@
    "cashback": "2.5% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -15711,8 +15387,8 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -15748,7 +15424,6 @@
    "categories": [
     "Mobile Phones",
     "Sim Only and Mobile Plans",
-    "Utilities",
     "Travel"
    ],
    "tiers": []
@@ -15788,8 +15463,8 @@
     "Luxury",
     "Fashion",
     "More Shopping",
-    "Sports and Outdoors",
-    "Travel"
+    "Travel",
+    "Sports and Outdoors"
    ],
    "tiers": [
     {
@@ -15806,17 +15481,40 @@
    "slug": "samsung",
    "url": "https://www.topcashback.com.au/samsung/",
    "name": "Samsung",
-   "cashback": "Up to 4% Cashback",
-   "upsized": false,
+   "cashback": "Up to 6% Cashback",
+   "upsized": true,
    "categories": [
     "Electricals",
     "Home Appliances",
     "Laptops and Computers",
     "Mobile Phones",
-    "Home and Garden",
-    "Utilities"
+    "Home and Garden"
    ],
    "tiers": [
+    {
+     "label": "Mobiles",
+     "rate": "6%"
+    },
+    {
+     "label": "Watch/Buds/Ring/Tablet",
+     "rate": "6%"
+    },
+    {
+     "label": "TVs & Soundbars",
+     "rate": "5%"
+    },
+    {
+     "label": "Monitors",
+     "rate": "5%"
+    },
+    {
+     "label": "Home Appliances - Fridges, Washers/Dryers, Dishwashers, Stick Vacs, Ovens, Aircon ",
+     "rate": "5%"
+    },
+    {
+     "label": "Other",
+     "rate": "4%"
+    },
     {
      "label": "Accessories",
      "rate": "4%"
@@ -15834,9 +15532,9 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Eyecare",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -15860,8 +15558,7 @@
    "cashback": "6% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -16035,8 +15732,7 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
-    "Experiences",
-    "Travel"
+    "Experiences"
    ],
    "tiers": []
   },
@@ -16047,8 +15743,7 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
-    "Experiences",
-    "Travel"
+    "Experiences"
    ],
    "tiers": []
   },
@@ -16059,8 +15754,7 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
-    "Experiences",
-    "Travel"
+    "Experiences"
    ],
    "tiers": []
   },
@@ -16072,8 +15766,7 @@
    "upsized": false,
    "categories": [
     "Experiences",
-    "Holidays",
-    "Travel"
+    "Holidays"
    ],
    "tiers": []
   },
@@ -16122,7 +15815,6 @@
     "Electricals",
     "Home and Garden",
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -16238,9 +15930,9 @@
     "Jewellery",
     "Kidswear",
     "Lingerie",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": [
     {
@@ -16398,7 +16090,6 @@
    "cashback": "$42 Cashback",
    "upsized": false,
    "categories": [
-    "Utilities",
     "More Shopping"
    ],
    "tiers": []
@@ -16411,8 +16102,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -16426,10 +16117,10 @@
     "Electricals",
     "Marketplace",
     "Health and Beauty",
+    "Fashion",
     "Home and Garden",
     "Parent Baby Toddler",
-    "Toys and Games",
-    "Fashion"
+    "Toys and Games"
    ],
    "tiers": [
     {
@@ -16455,9 +16146,9 @@
    "categories": [
     "Accessories",
     "Gifts",
+    "Fashion",
     "Home and Garden",
-    "Stationery",
-    "Fashion"
+    "Stationery"
    ],
    "tiers": []
   },
@@ -16508,9 +16199,7 @@
    "cashback": "Up to 5% Cashback",
    "upsized": false,
    "categories": [
-    "Sim Only and Mobile Plans",
-    "Utilities",
-    "Travel"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": [
     {
@@ -16745,8 +16434,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -16941,9 +16630,9 @@
    "upsized": false,
    "categories": [
     "Accessories",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -17050,8 +16739,8 @@
    "cashback": "Up to 8% Cashback",
    "upsized": false,
    "categories": [
-    "Eyecare",
     "Body and Hair",
+    "Eyecare",
     "Health and Beauty",
     "Pharmacy"
    ],
@@ -17095,8 +16784,8 @@
    "categories": [
     "Activewear",
     "Accessories",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -17231,8 +16920,8 @@
    "slug": "stayz",
    "url": "https://www.topcashback.com.au/stayz/",
    "name": "Stayz",
-   "cashback": "10% Cashback",
-   "upsized": true,
+   "cashback": "8% Cashback",
+   "upsized": false,
    "categories": [
     "Holidays",
     "Travel"
@@ -17313,9 +17002,9 @@
    "cashback": "8% Cashback",
    "upsized": false,
    "categories": [
+    "Body and Hair",
     "Cosmetics",
     "Fragrances",
-    "Body and Hair",
     "Health and Beauty"
    ],
    "tiers": []
@@ -17430,8 +17119,8 @@
    "cashback": "Up to 10% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": [
@@ -17463,8 +17152,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -17531,9 +17220,9 @@
    "upsized": true,
    "categories": [
     "Luxury",
+    "Fashion",
     "Menswear",
     "Outdoorwear",
-    "Fashion",
     "More Shopping"
    ],
    "tiers": [
@@ -17590,8 +17279,8 @@
    "categories": [
     "Accessories",
     "Footwear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -17616,8 +17305,7 @@
    "upsized": false,
    "categories": [
     "Health and Beauty",
-    "Nutrition and Supplements",
-    "More Shopping"
+    "Nutrition and Supplements"
    ],
    "tiers": []
   },
@@ -17641,8 +17329,8 @@
    "cashback": "8.4% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -17654,8 +17342,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Utilities",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -17668,8 +17354,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -17689,7 +17375,7 @@
    "slug": "swarovski",
    "url": "https://www.topcashback.com.au/swarovski/",
    "name": "Swarovski",
-   "cashback": "3% Cashback",
+   "cashback": "4% Cashback",
    "upsized": false,
    "categories": [
     "Accessories",
@@ -17744,8 +17430,7 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
-    "Experiences",
-    "Travel"
+    "Experiences"
    ],
    "tiers": []
   },
@@ -17814,8 +17499,7 @@
    "upsized": false,
    "categories": [
     "Mobile Phones",
-    "Sim Only and Mobile Plans",
-    "Utilities"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": []
   },
@@ -17859,10 +17543,10 @@
     "Interior Decor",
     "Kidswear",
     "Lingerie",
+    "Fashion",
     "Home and Garden",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -17873,8 +17557,8 @@
    "cashback": "Up to 5% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -17894,9 +17578,9 @@
    "cashback": "Up to 5% Cashback",
    "upsized": false,
    "categories": [
+    "Fashion",
     "New Zealand Brands",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": [
     {
@@ -17942,8 +17626,8 @@
    "categories": [
     "Accessories",
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -18087,8 +17771,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": []
@@ -18163,9 +17847,9 @@
    "upsized": false,
    "categories": [
     "Interior Decor",
+    "Fashion",
     "Home and Garden",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -18197,8 +17881,8 @@
    "cashback": "Up to 8% Cashback",
    "upsized": true,
    "categories": [
-    "Fragrances",
     "Body and Hair",
+    "Fragrances",
     "Health and Beauty",
     "More Shopping"
    ],
@@ -18264,8 +17948,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -18358,16 +18042,16 @@
    "upsized": false,
    "categories": [
     "Fragrances",
-    "Furniture",
     "Footwear",
+    "Furniture",
     "Home Appliances",
-    "Interior Decor",
     "Jewellery",
+    "Interior Decor",
     "Kidswear",
     "Health and Beauty",
+    "Fashion",
     "Home and Garden",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": [
     {
@@ -18405,8 +18089,8 @@
    "categories": [
     "Accessories",
     "Footwear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": [
@@ -18468,10 +18152,9 @@
    "cashback": "8% Cashback",
    "upsized": false,
    "categories": [
-    "Gifts",
     "Body and Hair",
-    "Health and Beauty",
-    "More Shopping"
+    "Gifts",
+    "Health and Beauty"
    ],
    "tiers": []
   },
@@ -18559,8 +18242,8 @@
    "categories": [
     "Activewear",
     "Footwear",
-    "Outdoorwear",
     "Fashion",
+    "Outdoorwear",
     "Sports and Outdoors"
    ],
    "tiers": [
@@ -18582,8 +18265,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -18683,9 +18366,9 @@
    "categories": [
     "Accessories",
     "Gifts",
+    "Fashion",
     "Outdoorwear",
-    "Toys and Games",
-    "Fashion"
+    "Toys and Games"
    ],
    "tiers": []
   },
@@ -18713,8 +18396,8 @@
     "Accessories",
     "Footwear",
     "Kidswear",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": [
     {
@@ -18746,8 +18429,8 @@
    "cashback": "7% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty",
     "Nutrition and Supplements",
     "Parent Baby Toddler"
@@ -18838,8 +18521,8 @@
    "cashback": "$10 Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -18888,8 +18571,7 @@
    "upsized": false,
    "categories": [
     "Experiences",
-    "More Shopping",
-    "Travel"
+    "More Shopping"
    ],
    "tiers": []
   },
@@ -18946,8 +18628,8 @@
    "upsized": false,
    "categories": [
     "Kidswear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -18959,9 +18641,9 @@
    "upsized": false,
    "categories": [
     "Kidswear",
+    "Fashion",
     "New Zealand Brands",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": []
   },
@@ -19042,8 +18724,8 @@
    "categories": [
     "Accessories",
     "Mobile Accessories",
-    "Mobile Phones",
-    "Fashion"
+    "Fashion",
+    "Mobile Phones"
    ],
    "tiers": []
   },
@@ -19057,9 +18739,9 @@
     "Books Magazines",
     "Gifts",
     "Kidswear",
+    "Fashion",
     "Parent Baby Toddler",
     "Toys and Games",
-    "Fashion",
     "More Shopping"
    ],
    "tiers": []
@@ -19137,17 +18819,6 @@
    ]
   },
   {
-   "slug": "travel-insurance-direct",
-   "url": "https://www.topcashback.com.au/travel-insurance-direct/",
-   "name": "Travel Insurance Direct (TID)",
-   "cashback": "6% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
-   ],
-   "tiers": []
-  },
-  {
    "slug": "travel-protect-insurance",
    "url": "https://www.topcashback.com.au/travel-protect-insurance/",
    "name": "Travel Protect Insurance",
@@ -19202,8 +18873,7 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Sim Only and Mobile Plans",
-    "Utilities"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": []
   },
@@ -19330,34 +19000,9 @@
    "upsized": false,
    "categories": [
     "Health and Beauty",
-    "Nutrition and Supplements",
-    "More Shopping"
+    "Nutrition and Supplements"
    ],
    "tiers": []
-  },
-  {
-   "slug": "trtl-travel",
-   "url": "https://www.topcashback.com.au/trtl-travel/",
-   "name": "Trtl travel",
-   "cashback": "Up to 4% Cashback",
-   "upsized": false,
-   "categories": [
-    "Travel"
-   ],
-   "tiers": [
-    {
-     "label": "New Customers",
-     "rate": "4%"
-    },
-    {
-     "label": "Existing Customers",
-     "rate": "3%"
-    },
-    {
-     "label": "Use of Trtl Vouchers",
-     "rate": "2%"
-    }
-   ]
   },
   {
    "slug": "tsar-bomba-watches",
@@ -19483,8 +19128,7 @@
     "Gifts",
     "Interior Decor",
     "Home and Garden",
-    "Stationery",
-    "More Shopping"
+    "Stationery"
    ],
    "tiers": [
     {
@@ -19549,16 +19193,15 @@
    "upsized": false,
    "categories": [
     "Activewear",
+    "Body and Hair",
     "Accessories",
     "Electricals",
     "Home Appliances",
-    "Body and Hair",
     "Marketplace",
     "Health and Beauty",
+    "Fashion",
     "Mobile Phones",
     "Home and Garden",
-    "Fashion",
-    "Utilities",
     "More Shopping"
    ],
    "tiers": []
@@ -19616,8 +19259,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -19682,8 +19325,7 @@
    "cashback": "7% Cashback",
    "upsized": false,
    "categories": [
-    "Office Equipment",
-    "More Shopping"
+    "Office Equipment"
    ],
    "tiers": []
   },
@@ -19748,8 +19390,8 @@
    "categories": [
     "Activewear",
     "Footwear",
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -19764,8 +19406,8 @@
     "Accessories",
     "Footwear",
     "Kidswear",
-    "Menswear",
     "Fashion",
+    "Menswear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -19827,8 +19469,8 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -19884,8 +19526,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -20025,8 +19667,7 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Pets",
-    "More Shopping"
+    "Pets"
    ],
    "tiers": []
   },
@@ -20037,8 +19678,7 @@
    "cashback": "Up to 10% Cashback",
    "upsized": false,
    "categories": [
-    "Pets",
-    "More Shopping"
+    "Pets"
    ],
    "tiers": [
     {
@@ -20073,8 +19713,7 @@
    "categories": [
     "Experiences",
     "Gifts",
-    "More Shopping",
-    "Travel"
+    "More Shopping"
    ],
    "tiers": []
   },
@@ -20330,8 +19969,7 @@
    "cashback": "10% Cashback",
    "upsized": false,
    "categories": [
-    "Mobile Phones",
-    "Utilities"
+    "Mobile Phones"
    ],
    "tiers": []
   },
@@ -20354,8 +19992,7 @@
    "upsized": true,
    "categories": [
     "Mobile Phones",
-    "Sim Only and Mobile Plans",
-    "Utilities"
+    "Sim Only and Mobile Plans"
    ],
    "tiers": [
     {
@@ -20396,8 +20033,8 @@
    "upsized": false,
    "categories": [
     "Activewear",
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -20456,8 +20093,7 @@
    "cashback": "2% Cashback",
    "upsized": false,
    "categories": [
-    "Accommodation",
-    "Travel"
+    "Accommodation"
    ],
    "tiers": []
   },
@@ -20494,19 +20130,6 @@
    ]
   },
   {
-   "slug": "wacom",
-   "url": "https://www.topcashback.com.au/wacom/",
-   "name": "Wacom",
-   "cashback": "5% Cashback",
-   "upsized": false,
-   "categories": [
-    "Electricals",
-    "Laptops and Computers",
-    "Home and Garden"
-   ],
-   "tiers": []
-  },
-  {
    "slug": "wahl",
    "url": "https://www.topcashback.com.au/wahl/",
    "name": "Wahl",
@@ -20526,8 +20149,8 @@
    "cashback": "5% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -20684,8 +20307,8 @@
    "cashback": "20% Cashback",
    "upsized": false,
    "categories": [
-    "Cosmetics",
     "Body and Hair",
+    "Cosmetics",
     "Health and Beauty"
    ],
    "tiers": []
@@ -20718,8 +20341,8 @@
    "upsized": false,
    "categories": [
     "Accessories",
-    "Outdoorwear",
     "Fashion",
+    "Outdoorwear",
     "Sports and Outdoors"
    ],
    "tiers": []
@@ -20814,9 +20437,9 @@
    "cashback": "8% Cashback",
    "upsized": false,
    "categories": [
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -20895,7 +20518,6 @@
    "upsized": false,
    "categories": [
     "Services",
-    "Vpn and Software",
     "More Shopping"
    ],
    "tiers": []
@@ -20967,8 +20589,8 @@
    "cashback": "Up to 4% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": [
     {
@@ -21024,8 +20646,8 @@
    "cashback": "6.5% Cashback",
    "upsized": false,
    "categories": [
-    "Outdoorwear",
-    "Fashion"
+    "Fashion",
+    "Outdoorwear"
    ],
    "tiers": []
   },
@@ -21125,8 +20747,8 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
-    "Menswear",
-    "Fashion"
+    "Fashion",
+    "Menswear"
    ],
    "tiers": []
   },
@@ -21137,9 +20759,9 @@
    "cashback": "3% Cashback",
    "upsized": false,
    "categories": [
+    "Fashion",
     "New Zealand Brands",
-    "Menswear",
-    "Fashion"
+    "Menswear"
    ],
    "tiers": []
   },
@@ -21254,7 +20876,6 @@
    "upsized": false,
    "categories": [
     "Mobile Phones",
-    "Utilities",
     "More Shopping"
    ],
    "tiers": []
@@ -21267,11 +20888,11 @@
    "upsized": false,
    "categories": [
     "Interior Decor",
-    "Luxury",
     "Kidswear",
+    "Luxury",
+    "Fashion",
     "Home and Garden",
     "Menswear",
-    "Fashion",
     "More Shopping"
    ],
    "tiers": []
@@ -21344,9 +20965,9 @@
    "categories": [
     "Accessories",
     "Footwear",
+    "Fashion",
     "Menswear",
-    "Outdoorwear",
-    "Fashion"
+    "Outdoorwear"
    ],
    "tiers": [
     {
@@ -21418,8 +21039,8 @@
    "upsized": false,
    "categories": [
     "Footwear",
-    "Home and Garden",
-    "Fashion"
+    "Fashion",
+    "Home and Garden"
    ],
    "tiers": [
     {
