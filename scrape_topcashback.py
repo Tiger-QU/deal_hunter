@@ -164,30 +164,61 @@ def pretty_category(slug):
     )
 
 
+def normalize_list_rate(raw):
+    """Turn multi-line '17%\\n Cashback' into '17%'."""
+    if not raw:
+        return ""
+    text = html_lib.unescape(raw.replace("\r", " ").replace("\n", " "))
+    text = re.sub(r"\s+", " ", text).strip()
+    return re.sub(r"\s+Cashback\s*$", "", text, flags=re.I).strip()
+
+
 def parse_category_page(html):
     """Yield (slug, name, rate, upsized) for each merchant card."""
-    cards = re.findall(
+    # Legacy layout (pre ~late 2026)
+    legacy = re.findall(
         r'<a href="/([a-z0-9-]+)/"[^>]*class="category-panel"(.*?)</a>',
         html,
         re.S,
     )
+    if legacy:
+        cards = legacy
+        name_re = r'search-merchant-name">([^<]+)<'
+        rate_re = r'category-cashback-rate[^>]*>([^<]+)<'
+        flag_re = r'search-exclusive-text">([^<]+)<'
+    else:
+        cards = re.findall(
+            r'<a href="/([a-z0-9-]+)/"\s+class="cat-result"(.*?)</a>',
+            html,
+            re.S,
+        )
+        name_re = r'cat-result-info__name">([^<]+)<'
+        rate_re = r'cat-result-info__rate">([^<]+)'
+        flag_re = r'cat-result-info__tag[^>]*>.*?<span>([^<]+)</span>'
+
     out = []
     for slug, body in cards:
-        name = re.search(r'search-merchant-name">([^<]+)<', body)
-        rate = re.search(r'category-cashback-rate[^>]*>([^<]+)<', body)
-        flag = re.search(r'search-exclusive-text">([^<]+)<', body)
+        name = re.search(name_re, body)
+        rate = re.search(rate_re, body, re.S)
+        flag = re.search(flag_re, body, re.S)
         if not rate:
+            continue
+        raw_rate = normalize_list_rate(rate.group(1))
+        if not raw_rate:
             continue
         out.append({
             "slug": slug,
             "name": html_lib.unescape(name.group(1)).strip() if name else slug,
-            "cashback": html_lib.unescape(rate.group(1)).strip(),
+            "cashback": raw_rate,
             "upsized": bool(flag and "Upsized" in flag.group(1)),
         })
     return out
 
 
 def result_count(html):
+    m = re.search(r'cat-results-total">\s*(\d+)\s*results', html)
+    if m:
+        return int(m.group(1))
     m = re.search(r"1 - \d+ of (\d+) results", html)
     return int(m.group(1)) if m else None
 
