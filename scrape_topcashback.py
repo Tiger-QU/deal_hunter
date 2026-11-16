@@ -143,15 +143,35 @@ def enrich_merchants(merchants, workers=2, delay=0.8, limit=None):
     return blocked
 
 
+# Present in the sitemap, but not linked from /categories/.
+EXTRA_CATEGORY_SLUGS = {
+    "apps-and-services",
+    "fitness",
+    "iphone",
+    "laptops-and-computers",
+    "mobile-accessories",
+}
+
+
+def category_slugs_from_page():
+    """Category list from the public index, used when the sitemap is blocked."""
+    html = fetch(BASE + "/categories/", referer=f"{BASE}/")
+    slugs = set(re.findall(r'href="/category/([a-z0-9-]+)/"', html))
+    slugs.update(EXTRA_CATEGORY_SLUGS)
+    return sorted(slugs)
+
+
 def get_category_slugs():
     warmup(BASE)
-    xml = fetch(BASE + "/sitemap.xml", referer=f"{BASE}/")
-    locs = re.findall(r"<loc>(.*?)</loc>", xml)
-    slugs = []
-    for loc in locs:
-        m = re.match(rf"{BASE}/category/([a-z0-9-]+)/", loc)
-        if m:
-            slugs.append(m.group(1))
+    try:
+        xml = fetch(BASE + "/sitemap.xml", referer=f"{BASE}/")
+    except Exception as exc:
+        print(f"  sitemap unavailable ({exc}); using categories page", flush=True)
+        return category_slugs_from_page()
+    slugs = re.findall(rf"{BASE}/category/([a-z0-9-]+)/", xml)
+    if not slugs:
+        print("  sitemap had no categories; using categories page", flush=True)
+        return category_slugs_from_page()
     return sorted(set(slugs))
 
 
